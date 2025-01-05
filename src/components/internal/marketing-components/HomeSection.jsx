@@ -10,9 +10,17 @@ const HomeSection = () => {
           <Box className="home-wrapper">
             <Box className="advertisement-content">
               <Typography className="content-heading">
-                <span className="">Welcome to Sanchit Healthcare LLP</span>{" "}
+                <span className="highlighted-heading">
+                  Welcome to Sanchit Healthcare LLP
+                </span>{" "}
                 <br />
-                <span style={{ fontWeight: "normal", fontSize: "1rem" }}>
+                <span
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "1rem",
+                    color: "lightgray",
+                  }}
+                >
                   Best Pathology Machine | Laboratory | Pathology | Medical
                   Equipment Supplier in Gwalior
                 </span>

@@ -94,9 +94,11 @@
         }
 
         .highlighted-heading {
-          background-color: $white;
-          color: $primary;
+          color: $white;
           padding-inline: 0.5rem;
+          @media screen and (max-width: $sm-breakpoint) {
+            font-size: $font-size-xxxl;
+          }
         }
       }
     }
