@@ -7,26 +7,33 @@ const CategoryList = ({ category }) => {
       {
         id: 1,
         name: "item",
+        description:
+          "This is a clinical chemistry analyzer used for hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 2,
         name: "item",
+        description: "Advanced hematology analyzer with automatic calibration.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 3,
         name: "item",
+        description: "Portable analyzer suitable for rapid hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 4,
         name: "item",
+        description:
+          "High-precision analyzer with minimal sample requirements.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 5,
         name: "item",
+        description: "Ideal for both routine and specialized hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
     ],
@@ -34,26 +41,33 @@ const CategoryList = ({ category }) => {
       {
         id: 1,
         name: "item",
+        description:
+          "This is a clinical chemistry analyzer used for hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 2,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Advanced hematology analyzer with automatic calibration.",
+        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 3,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Portable analyzer suitable for rapid hematology tests.",
+        url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 4,
         name: "item",
+        description:
+          "High-precision analyzer with minimal sample requirements.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 5,
         name: "item",
+        description: "Ideal for both routine and specialized hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
     ],
@@ -61,26 +75,33 @@ const CategoryList = ({ category }) => {
       {
         id: 1,
         name: "item",
+        description:
+          "This is a clinical chemistry analyzer used for hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 2,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Advanced hematology analyzer with automatic calibration.",
+        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 3,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Portable analyzer suitable for rapid hematology tests.",
+        url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 4,
         name: "item",
+        description:
+          "High-precision analyzer with minimal sample requirements.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 5,
         name: "item",
+        description: "Ideal for both routine and specialized hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
     ],
@@ -88,26 +109,33 @@ const CategoryList = ({ category }) => {
       {
         id: 1,
         name: "item",
+        description:
+          "This is a clinical chemistry analyzer used for hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 2,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Advanced hematology analyzer with automatic calibration.",
+        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 3,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Portable analyzer suitable for rapid hematology tests.",
+        url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 4,
         name: "item",
+        description:
+          "High-precision analyzer with minimal sample requirements.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 5,
         name: "item",
+        description: "Ideal for both routine and specialized hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
     ],
@@ -115,26 +143,33 @@ const CategoryList = ({ category }) => {
       {
         id: 1,
         name: "item",
+        description:
+          "This is a clinical chemistry analyzer used for hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 2,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Advanced hematology analyzer with automatic calibration.",
+        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 3,
         name: "item",
-        url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+        description: "Portable analyzer suitable for rapid hematology tests.",
+        url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 4,
         name: "item",
+        description:
+          "High-precision analyzer with minimal sample requirements.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
       {
         id: 5,
         name: "item",
+        description: "Ideal for both routine and specialized hematology tests.",
         url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
       },
     ],
@@ -142,7 +177,7 @@ const CategoryList = ({ category }) => {
 
   return (
     <>
-      <Grid container spacing={2}>
+      <Grid container spacing={4}>
         {categoryLists[category]?.map((item, index) => (
           <Grid item xs={12} sm={4} key={index} mt={2}>
             <ProductCard item={item} />

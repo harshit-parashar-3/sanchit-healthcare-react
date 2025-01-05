@@ -19,10 +19,10 @@ const CategorySelection = ({ selectedCategory, onSelectCategory }) => {
             cursor: "pointer",
             fontWeight: "bold",
             color: category === selectedCategory ? "white" : "#363b4d",
-            background: category === selectedCategory ? "#4a7dff" : "white",
+            background: category === selectedCategory ? "#363b4d" : "white",
             padding: "1rem",
             margin: "1rem",
-            border: "1px solid #4A7DFF",
+            border: "1px solid #363b4d",
           }}
         >
           {category.toUpperCase()}
