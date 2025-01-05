@@ -1,12 +1,22 @@
 import * as React from "react";
-import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import {
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 
 export default function ProductCard({ item }) {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <Card
       variant="outlined"
       sx={{
-        maxWidth: 300,
+        maxWidth: isMobile ? "100%" : 300,
         width: "100%",
         height: "auto",
         backgroundColor: "#fff",
@@ -27,7 +37,7 @@ export default function ProductCard({ item }) {
         sx={{
           height: 180,
           objectFit: "cover",
-          padding: "0.5rem",
+          padding: isMobile ? "0.5rem" : "1rem",
         }}
       />
       <CardContent sx={{ padding: 2 }}>
