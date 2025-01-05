@@ -41,7 +41,7 @@
 .home-section {
   width: 100%;
   height: 100svh;
-  background: linear-gradient(#00000098 50%, #000000a2 50%, $primary),
+  background: linear-gradient(#00000098 50%, #000000a2 50%, $secondary),
     url("../../assets/images/marketing-bg.jpg");
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -188,7 +188,7 @@
 }
 
 .service-section {
-  background: linear-gradient($primary, $primary);
+  background: linear-gradient($secondary, $secondary);
 
   .service-wrapper {
     width: 100%;
