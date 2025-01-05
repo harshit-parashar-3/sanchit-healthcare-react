@@ -1,6 +1,6 @@
 import { Box, Container, Grid } from "@mui/material";
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import CategorySelection from "./CategorySelection";
 import CategoryList from "./CatogoryList";
 import MarketingHeader from "../../layout/MarketingHeader";
@@ -8,11 +8,13 @@ import { UseScrollTop } from "../../../../hooks/useScrolltoTop";
 import BannerSection from "../BannerSection";
 
 const Category = () => {
+  const navigate = useNavigate();
   UseScrollTop();
   const { category } = useParams();
   const [selectedCategory, setSelectedCategory] = useState(category);
 
   const handleSelectCategory = (selectedCategory) => {
+    navigate(`/category/${selectedCategory}`);
     setSelectedCategory(selectedCategory);
   };
 
