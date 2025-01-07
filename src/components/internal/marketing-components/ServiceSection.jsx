@@ -1,7 +1,8 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { servicesData } from "../../../constant";
 import { Link } from "react-router-dom";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 const ServiceSection = () => {
   return (
@@ -30,21 +31,32 @@ const ServiceSection = () => {
             <Grid container spacing={{ xs: 2, sm: 4 }} className="mt-30">
               {servicesData?.map((service, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
-                  <Link to={service.url} className="Links">
-                    <Box
-                      className="serviceCard"
-                      data-aos="fade-up"
-                      data-aos-delay={index * 100}
-                    >
-                      <Box className="card-icon-container">{service?.icon}</Box>
-                      <Typography className="content-heading mt-18">
+                  <Box
+                    data-aos="fade-up"
+                    data-aos-delay={index * 100}
+                    className="service"
+                    sx={{
+                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${service?.backgroundImage})`, // Apply gradient and image together
+                    }}
+                  >
+                    <Box className="serviceCard">
+                      <Typography className="content-heading mt-10">
                         {service?.heading}
                       </Typography>
                       <Typography className="content-subheading">
                         {service?.subheading}
                       </Typography>
+                      <Button
+                        component={Link}
+                        to={service.url}
+                        variant="contained"
+                        className="button button-light"
+                        endIcon={<KeyboardArrowRightIcon />}
+                      >
+                        Check Out
+                      </Button>
                     </Box>
-                  </Link>
+                  </Box>
                 </Grid>
               ))}
             </Grid>

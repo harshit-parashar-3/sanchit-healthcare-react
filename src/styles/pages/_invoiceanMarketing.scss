@@ -75,7 +75,6 @@
       width: 70%;
       background-color: transparent;
       padding: 2rem;
-      border-left: 4px solid $white;
 
       @media screen and (max-width: $md-breakpoint) {
         width: 100%;
@@ -215,37 +214,26 @@
       }
     }
 
-    .Links {
-      text-decoration: none !important;
+    .service {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      position: relative;
       .serviceCard {
-        border-bottom: 1px solid $field-background;
-        background-color: $white;
         padding: 1rem;
         transition: 0.5s;
-
+        position: relative;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
         @media screen and (max-width: $sm-breakpoint) {
-          padding: 0.5remrem;
+          padding: 0.5rem;
         }
 
         &:hover {
           box-shadow: $box-shadow;
           transform: scale(1.01);
-        }
-
-        .card-icon-container {
-          height: 5rem;
-          width: 5rem;
-          border-radius: 50%;
-          border: 1px solid $field-background;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: $dark-gray;
-
-          @media screen and (max-width: $sm-breakpoint) {
-            height: 4rem;
-            width: 4rem;
-          }
         }
 
         .content-heading {
@@ -264,8 +252,8 @@
         .content-subheading {
           width: 100%;
           font-size: $font-size-sm;
-          color: $gray;
-          min-height: 10rem;
+          color: $white;
+          min-height: 5rem;
 
           @media screen and (max-width: $sm-breakpoint) {
             min-height: auto;

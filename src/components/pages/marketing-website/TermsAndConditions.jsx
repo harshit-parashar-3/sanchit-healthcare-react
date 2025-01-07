@@ -8,11 +8,7 @@ const TermsAndConditions = () => {
   return (
     <>
       <Box className="termsAndCondition-wrapper">
-        <MarketingHeader
-          content={"Return to the "}
-          url={"/"}
-          buttonTitle={"Return to the Home page"}
-        />
+        <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
         <BannerSection
           heading="Terms and conditions"
           content="Please review this agreement carefully before utilizing this service."

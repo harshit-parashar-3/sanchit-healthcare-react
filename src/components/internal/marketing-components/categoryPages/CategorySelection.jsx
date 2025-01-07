@@ -33,7 +33,7 @@ const CategorySelection = ({ selectedCategory, onSelectCategory }) => {
     <Box className="CategorySelection" sx={{ position: "relative" }}>
       {isMobile && (
         <Fab
-          color="#ff5100"
+          color="#1462F3"
           aria-label="add"
           sx={{
             position: "fixed",

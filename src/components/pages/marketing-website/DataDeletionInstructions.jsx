@@ -8,11 +8,7 @@ const DataDeletionInstructions = () => {
   return (
     <>
       <Box className="termsAndCondition-wrapper">
-        <MarketingHeader
-          content={"Return to the "}
-          url={"/"}
-          buttonTitle={"Return to the Home page"}
-        />
+        <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
         <BannerSection
           heading="Data Deletion Instructions"
           content="Review these steps to understand how you can delete your data."

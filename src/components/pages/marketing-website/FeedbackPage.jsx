@@ -55,11 +55,7 @@ const FeedbackPage = () => {
 
   return (
     <>
-      <MarketingHeader
-        content={"Return to the "}
-        url={"/"}
-        buttonTitle={"Return to the Home page"}
-      />
+      <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
       <BannerSection
         heading="Share Your Thoughts with Us !"
         content="Your feedback matters to us! We strive to continuously improve

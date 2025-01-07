@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-import sanchitHealthcareLogo from "../../..//assets/logo/logo-dark.jpeg";
+import sanchitHealthcareLogo from "../../..//assets/logo/Sanchit-Healthcare-Logo.svg";
 import { Link } from "react-router-dom";
 import { footerLinksGeneral, footerLinksLegal } from "../../../constant";
 
@@ -19,7 +19,7 @@ const MarketingFooter = () => {
         <Container maxWidth="xl">
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={4}>
-              <Box className="footer-logo mb-30">
+              <Box className="footer-logo mb-5">
                 <Link to="/">
                   <Box
                     component="img"

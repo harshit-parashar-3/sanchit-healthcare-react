@@ -11,11 +11,7 @@ const ContactPage = () => {
   UseScrollTop();
   return (
     <>
-      <MarketingHeader
-        content={"Return to the "}
-        url={"/"}
-        buttonTitle={"Return to the Home page"}
-      />
+      <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
       <BannerSection
         heading="We're looking forward to hearing from you."
         content="An entire team is committed to enhancing your experience at no cost. But don't just take our word for it—reach out to us using the email address below and experience it firsthand."

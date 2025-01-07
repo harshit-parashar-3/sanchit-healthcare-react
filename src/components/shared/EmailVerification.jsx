@@ -49,7 +49,7 @@ const EmailVerification = ({
                   <Box className="button-container">
                     <CustomButton
                       title={isLoading ? "Proceeding..." : "Proceed"}
-                      styles="button submitButton pnimary-btn mt-18"
+                      styles="button submitButton primary-btn mt-18"
                     />
                   </Box>
                 </form>

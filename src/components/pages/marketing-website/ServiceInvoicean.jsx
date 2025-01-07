@@ -11,11 +11,7 @@ const ServicesanchitHealthcare = () => {
   UseScrollTop();
   return (
     <>
-      <MarketingHeader
-        content={"Return to the "}
-        url={"/"}
-        buttonTitle={"Return to the Home page"}
-      />
+      <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
       <BannerSection
         heading="Categories."
         content="A brief overview of the categories"

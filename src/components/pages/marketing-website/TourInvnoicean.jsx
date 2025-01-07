@@ -8,11 +8,7 @@ import TestimonialSection from "../../internal/marketing-components/TestimonialS
 const TourInvnoicean = () => {
   return (
     <>
-      <MarketingHeader
-        content={"Return to the "}
-        url={"/"}
-        buttonTitle={"Return to the Home page"}
-      />
+      <MarketingHeader url={"/"} buttonTitle={"Return to the Home page"} />
       <BannerSection
         heading="Efficient Invoicing"
         content="Generate professional and elegant estimates and invoices effortlessly, in any language or currency, within seconds, and seamlessly deliver them to your clients."

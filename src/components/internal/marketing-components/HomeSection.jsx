@@ -11,8 +11,8 @@ const HomeSection = () => {
             <Box className="advertisement-content">
               <Typography className="content-heading">
                 <span className="highlighted-heading">
-                  Welcome to Sanchit Healthcare LLP
-                </span>{" "}
+                  Delivering Advanced Lab Solutions for a Smarter Future
+                </span>
                 <br />
                 <span
                   style={{
@@ -21,15 +21,15 @@ const HomeSection = () => {
                     color: "lightgray",
                   }}
                 >
-                  Best Pathology Machine | Laboratory | Pathology | Medical
-                  Equipment Supplier in Gwalior
+                  Optimize your lab's productivity with our reliable,
+                  cutting-edge machines and seamless service.
                 </span>
               </Typography>
-              {/* <CustomButton
-                title="Start using sanchitHealthcare"
+              <CustomButton
+                title="Explore Products"
                 styles="button marketingButton mt-18"
-                url={"/"}
-              /> */}
+                url={"/category"}
+              />
             </Box>
           </Box>
         </Container>
