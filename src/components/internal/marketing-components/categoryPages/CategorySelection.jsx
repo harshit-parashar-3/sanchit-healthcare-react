@@ -109,7 +109,8 @@ const CategorySelection = ({ selectedCategory, onSelectCategory }) => {
                 borderRadius: 2,
                 transition: "background-color 0.3s ease",
                 "&:hover": {
-                  backgroundColor: "#f5f5f5",
+                  backgroundColor: "#363b4d",
+                  color: "white",
                 },
               }}
             >

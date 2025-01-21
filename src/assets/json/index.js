@@ -227,3 +227,76 @@ export const categoryLists = {
     },
   ],
 };
+
+export const products = [
+  {
+    id: 1,
+    name: "Product 1",
+    description: "This is a great product.",
+    price: 29.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 2,
+    name: "Product 2",
+    description: "This is another amazing product.",
+    price: 49.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 3,
+    name: "Product 3",
+    description: "This is an awesome product.",
+    price: 19.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 4,
+    name: "Product 4",
+    description: "This product is top-rated.",
+    price: 99.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 5,
+    name: "Product 3",
+    description: "This is an awesome product.",
+    price: 19.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 6,
+    name: "Product 4",
+    description: "This product is top-rated.",
+    price: 99.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 7,
+    name: "Product 3",
+    description: "This is an awesome product.",
+    price: 19.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 8,
+    name: "Product 4",
+    description: "This product is top-rated.",
+    price: 99.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 9,
+    name: "Product 3",
+    description: "This is an awesome product.",
+    price: 19.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+  {
+    id: 10,
+    name: "Product 4",
+    description: "This product is top-rated.",
+    price: 99.99,
+    url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
+  },
+];

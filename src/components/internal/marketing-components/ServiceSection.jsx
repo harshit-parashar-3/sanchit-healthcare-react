@@ -40,7 +40,7 @@ const ServiceSection = () => {
                     }}
                   >
                     <Box className="serviceCard">
-                      <Typography className="content-heading mt-10">
+                      <Typography className="content-heading mt-5">
                         {service?.heading}
                       </Typography>
                       <Typography className="content-subheading">
@@ -49,8 +49,9 @@ const ServiceSection = () => {
                       <Button
                         component={Link}
                         to={service.url}
-                        variant="contained"
-                        className="button button-light"
+                        variant="outlined"
+                        className="button "
+                        sx={{ color: "white", borderColor: "white" }}
                         endIcon={<KeyboardArrowRightIcon />}
                       >
                         Check Out

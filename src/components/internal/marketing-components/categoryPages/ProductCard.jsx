@@ -18,7 +18,8 @@ export default function ProductCard({ item }) {
       sx={{
         maxWidth: isMobile ? "100%" : 300,
         width: "100%",
-        height: "auto",
+        height: "100%",
+        maxHeight: "25rem",
         backgroundColor: "#fff",
         borderRadius: 2,
         border: "1px solid transparent",
