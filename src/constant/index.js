@@ -8,6 +8,9 @@ import BioChemistry from "../assets/images/biochemistry.png";
 import rapidCard from "../assets/images/rapid-card.png";
 import microBiology from "../assets/images/microbiology.png";
 import consumable from "../assets/images/consumables.png";
+import chromatogram from "../assets/images/chromatogram.png";
+import histopathology from "../assets/images/histopathology.png";
+import microscope from "../assets/images/olympus-compound.png";
 
 export const servicesData = [
   {
@@ -49,6 +52,30 @@ export const servicesData = [
     backgroundImage: consumable,
     subheading:
       "Discover high-quality laboratory consumables for reliable, efficient experiments, ensuring precision, durability, and seamless lab operations.",
+  },
+  {
+    icon: <PictureAsPdfIcon sx={{ fontSize: "2.2rem" }} />,
+    heading: "Chromatography",
+    url: "/category/chromatography",
+    backgroundImage: chromatogram,
+    subheading:
+      "Chromatography is a laboratory technique used to separate, identify, and analyze components in a mixture. It works by distributing substances between a stationary phase and a mobile phase for separation.",
+  },
+  {
+    icon: <PictureAsPdfIcon sx={{ fontSize: "2.2rem" }} />,
+    heading: "Histopathology",
+    url: "/category/histopathology",
+    backgroundImage: histopathology,
+    subheading:
+      "Histopathology is the microscopic examination of tissues to study diseases. It helps diagnose conditions like cancer by analyzing tissue structure, abnormalities, and cellular changes after biopsy or surgery.",
+  },
+  {
+    icon: <PictureAsPdfIcon sx={{ fontSize: "2.2rem" }} />,
+    heading: "Microscope",
+    url: "/category/microscope",
+    backgroundImage: microscope,
+    subheading:
+      "A microscope is an optical instrument used to magnify small objects, allowing detailed observation of microorganisms, cells, and tissues. It is essential in biology, medicine, and scientific research for analysis and diagnostics.",
   },
 ];
 

@@ -17,8 +17,11 @@ const CategorySelection = ({ selectedCategory, onSelectCategory }) => {
     "hematology",
     "microbiology",
     "biochemistry",
+    "chromatography",
+    "histopathology",
     "rapidcard",
     "consumables",
+    "microscope",
   ];
 
   const theme = useTheme();
