@@ -8,6 +8,10 @@ import Avantor from "../../../assets/Company-logo/avantor.png";
 import BDLAb from "../../../assets/Company-logo/BDLab.jpg";
 import Medsource from "../../../assets/Company-logo/medsource.jpg";
 import TharmoFirsher from "../../../assets/Company-logo/thermo-fisher-scientific.svg";
+import Olympus from "../../../assets/Company-logo/olympus.png";
+import Labomed from "../../../assets/Company-logo/labomed.jpg";
+import MB from "../../../assets/Company-logo/mb-plastic-industries.png";
+import Tarson from "../../../assets/Company-logo/tarsons-products--big.svg";
 
 const CompanyMarque = () => (
   <Marquee
@@ -27,7 +31,7 @@ const CompanyMarque = () => (
     <img
       src={Triviton}
       alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
+      style={{ margin: "0 2.5rem", height: "120px" }}
     />
     <img
       src={Maril}
@@ -52,7 +56,27 @@ const CompanyMarque = () => (
     <img
       src={TharmoFirsher}
       alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "80px" }}
+      style={{ margin: "0 2.5rem", height: "60px" }}
+    />
+    <img
+      src={Olympus}
+      alt="agappe-logo"
+      style={{ margin: "0 2.5rem", height: "120px" }}
+    />
+    <img
+      src={Labomed}
+      alt="agappe-logo"
+      style={{ margin: "0 2.5rem", height: "100px" }}
+    />
+    <img
+      src={MB}
+      alt="agappe-logo"
+      style={{ margin: "0 2.5rem", height: "100px" }}
+    />
+    <img
+      src={Tarson}
+      alt="agappe-logo"
+      style={{ margin: "0 2.5rem", height: "100px" }}
     />
   </Marquee>
 );
