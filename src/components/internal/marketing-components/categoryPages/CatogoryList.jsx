@@ -17,9 +17,9 @@ const CategoryList = ({ category }) => {
 
   return (
     <>
-      <Grid container spacing={4}>
+      <Grid container spacing={2}>
         {currentItems?.map((item) => (
-          <Grid item xs={12} sm={4} key={item.id} mt={2}>
+          <Grid item xs={12} sm={3} key={item.id} mt={2}>
             <ProductCard item={item} />
           </Grid>
         ))}

@@ -1,12 +1,15 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../../assets/logo/Sanchit-Healthcare-Logo.svg";
+
 const MarketingHeader = () => {
   const location = useLocation();
 
-  const getButtonClassName = (hash) => {
-    return location.hash === hash ? "button button-primary" : "button";
+  const getButtonClassName = (path) => {
+    return location.pathname === path || location.hash === path
+      ? "button button-primary"
+      : "button";
   };
 
   return (
@@ -43,11 +46,12 @@ const MarketingHeader = () => {
               <Link
                 to="/aboutus"
                 className={`scrollNavigationBtn ${getButtonClassName(
-                  "#about"
+                  "/aboutus"
                 )}`}
               >
-                About
+                About Us
               </Link>
+
               <Link
                 to="/category"
                 className={`scrollNavigationBtn ${getButtonClassName(
@@ -56,7 +60,12 @@ const MarketingHeader = () => {
               >
                 Category
               </Link>
-              <Link to="/contact" className={`scrollNavigationBtn`}>
+              <Link
+                to="/contact"
+                className={`scrollNavigationBtn ${getButtonClassName(
+                  "/contact"
+                )}`}
+              >
                 Contact
               </Link>
             </Stack>

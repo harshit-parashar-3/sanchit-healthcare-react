@@ -91,7 +91,6 @@ const CategorySelection = ({ selectedCategory, onSelectCategory }) => {
         </Box>
       </Modal>
 
-      {/* Display categories as clickable boxes for larger screens */}
       {!isMobile && (
         <Box>
           {categories.map((category) => (

@@ -25,13 +25,13 @@ const Category = () => {
 
       <Container maxWidth="xl">
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={3}>
+          <Grid item xs={12} sm={2}>
             <CategorySelection
               onSelectCategory={handleSelectCategory}
               selectedCategory={selectedCategory}
             />
           </Grid>
-          <Grid item xs={12} sm={9}>
+          <Grid item xs={12} sm={10}>
             <CategoryList category={selectedCategory} />
           </Grid>
         </Grid>
