@@ -11,6 +11,7 @@ import MarketingFooter from "../../internal/layout/MarketingFooter";
 import useSmoothScroll from "../../../hooks/useSmoothScroll";
 import FeatureProduct from "../../internal/marketing-components/FeatureProduct";
 import Features from "../../internal/marketing-components/Feature";
+import CompanyMarque from "../../internal/marketing-components/CompanyMarque";
 
 const InvoiceanMarketing = () => {
   useSmoothScroll();
@@ -23,6 +24,8 @@ const InvoiceanMarketing = () => {
       <MarketingHeader content={content} url={url} buttonTitle={buttonTitle} />
 
       <HomeSection />
+
+      <CompanyMarque />
 
       <AboutSection />
       <ServiceSection />
