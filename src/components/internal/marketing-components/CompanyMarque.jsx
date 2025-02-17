@@ -12,44 +12,48 @@ import Labomed from "../../../assets/Company-logo/labomed.jpg";
 import MB from "../../../assets/Company-logo/mb-plastic-industries.png";
 import Tarson from "../../../assets/Company-logo/tarsons-products--big.svg";
 
-const CompanyMarque = () => (
-  <Marquee
-    delay={5}
-    loop={0}
-    gradient
-    gradientColor="#fff"
-    gradientWidth={300}
-    autoFill
-    style={{ height: "8rem", background: "#fff" }}
-  >
-    {[
-      Agappe,
-      Triviton,
-      Maril,
-      Avantor,
-      BDLAb,
-      Medsource,
-      TharmoFirsher,
-      Olympus,
-      Labomed,
-      MB,
-      Tarson,
-    ].map((logo, index) => (
-      <img
-        key={index}
-        src={logo}
-        alt="company-logo"
-        style={{
-          margin: "0 1.5rem",
-          height: "60px",
-          filter: "grayscale(100%)",
-          transition: "filter 0.3s ease-in-out",
-        }}
-        onMouseOver={(e) => (e.currentTarget.style.filter = "grayscale(0%)")}
-        onMouseOut={(e) => (e.currentTarget.style.filter = "grayscale(100%)")}
-      />
-    ))}
-  </Marquee>
-);
+const CompanyMarque = () => {
+  const logos = [
+    { src: Agappe, height: "60px" },
+    { src: Triviton, height: "60px" },
+    { src: Maril, height: "60px" },
+    { src: Avantor, height: "60px" },
+    { src: BDLAb, height: "60px" },
+    { src: Medsource, height: "60px" },
+    { src: TharmoFirsher, height: "40px" }, // Set specific height for TharmoFirsher
+    { src: Olympus, height: "60px" },
+    { src: Labomed, height: "60px" },
+    { src: MB, height: "60px" },
+    { src: Tarson, height: "60px" },
+  ];
+
+  return (
+    <Marquee
+      delay={5}
+      loop={0}
+      gradient
+      gradientColor="#fff"
+      gradientWidth={300}
+      autoFill
+      style={{ height: "6rem", background: "#fff" }}
+    >
+      {logos.map((logo, index) => (
+        <img
+          key={index}
+          src={logo.src}
+          alt="company-logo"
+          style={{
+            margin: "0 1.5rem",
+            height: logo.height,
+            filter: "grayscale(100%)",
+            transition: "filter 0.3s ease-in-out",
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.filter = "grayscale(0%)")}
+          onMouseOut={(e) => (e.currentTarget.style.filter = "grayscale(100%)")}
+        />
+      ))}
+    </Marquee>
+  );
+};
 
 export default CompanyMarque;
