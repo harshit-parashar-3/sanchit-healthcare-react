@@ -6,7 +6,7 @@ import CategoryList from "./CatogoryList";
 import MarketingHeader from "../../layout/MarketingHeader";
 import { UseScrollTop } from "../../../../hooks/useScrolltoTop";
 import BannerSection from "../BannerSection";
-
+import MarketingFooter from "../../layout/MarketingFooter";
 const Category = () => {
   const navigate = useNavigate();
   UseScrollTop();
@@ -36,6 +36,7 @@ const Category = () => {
           </Grid>
         </Grid>
       </Container>
+      <MarketingFooter />
     </Box>
   );
 };

@@ -17,7 +17,7 @@ export default function ProductCard({ item }) {
     <Card
       variant="outlined"
       sx={{
-        maxWidth: isMobile ? "100%" : 300,
+        maxWidth: isMobile ? "100%" : 380,
         width: "100%",
         height: "100%",
         maxHeight: "25rem",
@@ -26,11 +26,12 @@ export default function ProductCard({ item }) {
         border: "1px solid transparent",
         display: "flex",
         flexDirection: "column",
-        transition: "all 0.3s ease",
+        transition: "all 0.8s ease",
         position: "relative",
 
         "&:hover": {
           boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+          transform: "scale(1.05)",
         },
       }}
     >
@@ -51,19 +52,30 @@ export default function ProductCard({ item }) {
         src={item.url}
         alt={item.name}
         sx={{
-          height: 280,
+          height: 380,
           width: "100%",
           objectFit: "contain",
-          padding: isMobile ? "0.5rem" : "1rem",
+
+          padding: isMobile ? "0.5rem" : "0.2rem",
         }}
       />
-      <CardContent sx={{ padding: 2, position: "absolute", bottom: "0" }}>
+      <CardContent
+        sx={{
+          padding: 2,
+          margin: 2,
+          position: "absolute",
+          bottom: "0",
+          backgroundColor: "rgba(0, 0, 0, 0.697)",
+          borderBottomLeftRadius: "1rem",
+          borderBottomRightRadius: "1rem",
+        }}
+      >
         <Typography
           variant="h6"
           component="div"
           sx={{
             fontWeight: "bold",
-            color: "#333",
+            color: "#fff",
           }}
         >
           {item?.name?.charAt(0).toUpperCase() + item?.name?.slice(1)}
@@ -72,7 +84,7 @@ export default function ProductCard({ item }) {
         <Typography
           variant="body2"
           sx={{
-            color: "text.secondary",
+            color: "#fff",
             overflow: "hidden",
             textOverflow: "ellipsis",
             display: "-webkit-box",

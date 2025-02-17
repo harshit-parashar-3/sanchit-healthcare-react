@@ -36,7 +36,7 @@ const ServiceSection = () => {
                     data-aos-delay={index * 100}
                     className="service"
                     sx={{
-                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${service?.backgroundImage})`, // Apply gradient and image together
+                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${service?.backgroundImage})`, // Apply gradient and image together
                     }}
                   >
                     <Box className="serviceCard">

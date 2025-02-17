@@ -3,7 +3,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "hematology",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -11,35 +11,35 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "hematology",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "hematology",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "hematology",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "hematology",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 6,
       name: "item",
-      category: "hematology",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -47,35 +47,35 @@ export const categoryLists = {
     {
       id: 7,
       name: "item",
-      category: "hematology",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 8,
       name: "item",
-      category: "hematology",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 9,
       name: "item",
-      category: "hematology",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 10,
       name: "item",
-      category: "hematology",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 11,
       name: "item",
-      category: "hematology",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -83,28 +83,28 @@ export const categoryLists = {
     {
       id: 12,
       name: "item",
-      category: "hematology",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 13,
       name: "item",
-      category: "hematology",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 14,
       name: "item 5",
-      category: "hematology",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 15,
       name: "item",
-      category: "hematology",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -113,7 +113,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "microbiology",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -121,28 +121,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "microbiology",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "microbiology",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "microbiology",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "microbiology",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -151,7 +151,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "biochemistry",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -159,28 +159,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "biochemistry",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "biochemistry",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "biochemistry",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "biochemistry",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -189,7 +189,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "Chromatography",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -197,28 +197,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "Chromatography",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "Chromatography",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "Chromatography",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "Chromatography",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -227,7 +227,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "Histopathology",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -235,28 +235,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "Histopathology",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "Histopathology",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "Histopathology",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "Histopathology",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -265,7 +265,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "rapidcard",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -273,28 +273,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "rapidcard",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "rapidcard",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "rapidcard",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "rapidcard",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -303,7 +303,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "consumables",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
@@ -311,28 +311,28 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "consumables",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-01_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 3,
       name: "item",
-      category: "consumables",
+
       description: "Portable analyzer suitable for rapid hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/m/a/mask_group_4292.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 4,
       name: "item",
-      category: "consumables",
+
       description: "High-precision analyzer with minimal sample requirements.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
     {
       id: 5,
       name: "item",
-      category: "consumables",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://www.agappe.com/media/catalog/product/t/b/tbafr2000-02_1.png?auto=webp&format=png&width=1600&height=2000&fit=cover",
     },
@@ -341,7 +341,7 @@ export const categoryLists = {
     {
       id: 1,
       name: "item",
-      category: "microscope",
+
       description:
         "This is a clinical chemistry analyzer used for hematology tests.",
       url: "https://imgs.search.brave.com/zptgnaYofbA8UGbc1wi7oqF0CFHW_pu9PulUCcw2V6U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taWNy/b3Njb3BlY2VudHJh/bC5jb20vY2RuL3No/b3AvcHJvZHVjdHMv/T2x5bXB1c0NYMjNN/aWNyb3Njb3BlLmpw/Zz92PTE2MTk3Mjk2/MTEmd2lkdGg9NTMz",
@@ -349,7 +349,7 @@ export const categoryLists = {
     {
       id: 2,
       name: "item",
-      category: "microscope",
+
       description: "Advanced hematology analyzer with automatic calibration.",
       url: "https://imgs.search.brave.com/dbDx1fV6YyxoFBVn55DGw4QEBS7FxXaBS5DccxBEoiU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taWNy/b3Njb3BlY2VudHJh/bC5jb20vY2RuL3No/b3AvcHJvZHVjdHMv/RFNDXzAwMjdfY2xp/cHBlZF9yZXZfMS5q/cGVnP3Y9MTU2MjA5/OTA4MiZ3aWR0aD01/MzM",
     },
@@ -357,7 +357,7 @@ export const categoryLists = {
     {
       id: 5,
       name: "item",
-      category: "microscope",
+
       description: "Ideal for both routine and specialized hematology tests.",
       url: "https://imgs.search.brave.com/isHHySAE5SfXLX4trfqqsq14q8i9tHGyN3BgNbsVMLM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taWNy/b3Njb3BlY2VudHJh/bC5jb20vY2RuL3No/b3AvcHJvZHVjdHMv/NzAweDcwMF82YzEy/NzJhZi05YWRmLTQ4/YmMtYTQwYS01ZGRk/YzlkZTExZWEuanBn/P3Y9MTUwNzYxNjA5/MCZ3aWR0aD01MzM",
     },

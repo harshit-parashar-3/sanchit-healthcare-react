@@ -5,7 +5,7 @@ import { categoryLists } from "../../../../assets/json";
 
 const CategoryList = ({ category }) => {
   const [page, setPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 8;
 
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = page * itemsPerPage;
@@ -25,13 +25,14 @@ const CategoryList = ({ category }) => {
         ))}
       </Grid>
 
-      <Box display="flex" justifyContent="center" mt={4}>
+      <Box display="flex" justifyContent="flex-end" mt={4} mb={2}>
         <Pagination
           count={Math.ceil(categoryLists[category]?.length / itemsPerPage)}
           page={page}
           onChange={handlePageChange}
           variant="outlined"
           shape="rounded"
+          color="secondary"
         />
       </Box>
     </>

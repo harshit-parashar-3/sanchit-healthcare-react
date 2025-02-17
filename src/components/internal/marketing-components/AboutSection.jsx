@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import sanchitHealthcareLogo from "../../..//assets/logo/logo-dark.jpeg";
+import logo from "../../../assets/logo/Sanchit-Healthcare-Logo.svg";
 
 const AboutSection = () => {
   return (
@@ -14,7 +15,7 @@ const AboutSection = () => {
                   <Box className="sanchitHealthcare-logo">
                     <Box
                       component="img"
-                      src={sanchitHealthcareLogo}
+                      src={logo}
                       className="logo"
                       alt="about sanchitHealthcare logo"
                     />

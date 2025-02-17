@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Agappe from "../../../assets/Company-logo/agappe-1.svg";
