@@ -52,22 +52,21 @@ export default function ProductCard({ item }) {
         src={item.url}
         alt={item.name}
         sx={{
-          height: 380,
+          height: isMobile ? 280 : 380,
           width: "100%",
           objectFit: "contain",
-
           padding: isMobile ? "0.5rem" : "0.2rem",
         }}
       />
       <CardContent
         sx={{
           padding: 2,
-          margin: 2,
           position: "absolute",
           bottom: "0",
-          backgroundColor: "rgba(0, 0, 0, 0.697)",
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
           borderBottomLeftRadius: "1rem",
           borderBottomRightRadius: "1rem",
+          width: "100%",
         }}
       >
         <Typography
@@ -82,13 +81,13 @@ export default function ProductCard({ item }) {
         </Typography>
 
         <Typography
-          variant="body2"
           sx={{
             color: "#fff",
+            fontSize: "0.8rem",
             overflow: "hidden",
             textOverflow: "ellipsis",
             display: "-webkit-box",
-            WebkitLineClamp: 2,
+            WebkitLineClamp: 1,
             WebkitBoxOrient: "vertical",
           }}
         >

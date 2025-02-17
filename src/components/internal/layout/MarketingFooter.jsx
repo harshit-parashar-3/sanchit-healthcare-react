@@ -11,10 +11,12 @@ import React from "react";
 import sanchitHealthcareLogo from "../../..//assets/logo/Sanchit-Healthcare-Logo.svg";
 import { Link } from "react-router-dom";
 import { footerLinksGeneral, footerLinksLegal } from "../../../constant";
+import Certificates from "../marketing-components/Certificates";
 
 const MarketingFooter = () => {
   return (
     <>
+      <Certificates />
       <Box className="footer-section">
         <Container maxWidth="xl">
           <Grid container spacing={4}>

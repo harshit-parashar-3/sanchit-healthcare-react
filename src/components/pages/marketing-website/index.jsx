@@ -12,6 +12,7 @@ import useSmoothScroll from "../../../hooks/useSmoothScroll";
 import FeatureProduct from "../../internal/marketing-components/FeatureProduct";
 import Features from "../../internal/marketing-components/Feature";
 import CompanyMarque from "../../internal/marketing-components/CompanyMarque";
+import Certificates from "../../internal/marketing-components/Certificates";
 
 const InvoiceanMarketing = () => {
   useSmoothScroll();
@@ -37,9 +38,9 @@ const InvoiceanMarketing = () => {
         content="We provide top-tier, reliable laboratory equipment that ensures precision and efficiency. Trust us for cutting-edge solutions that elevate your lab’s performance and accuracy."
       />
       <Features />
-
       <TestimonialSection />
       <FAQSection />
+
       <MarketingFooter />
     </>
   );
