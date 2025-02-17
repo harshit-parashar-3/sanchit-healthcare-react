@@ -23,61 +23,33 @@ const CompanyMarque = () => (
     autoFill
     style={{ height: "8rem", background: "#fff" }}
   >
-    <img
-      src={Agappe}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={Triviton}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "120px" }}
-    />
-    <img
-      src={Maril}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={Avantor}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={BDLAb}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={Medsource}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={TharmoFirsher}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "60px" }}
-    />
-    <img
-      src={Olympus}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "120px" }}
-    />
-    <img
-      src={Labomed}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={MB}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
-    <img
-      src={Tarson}
-      alt="agappe-logo"
-      style={{ margin: "0 2.5rem", height: "100px" }}
-    />
+    {[
+      Agappe,
+      Triviton,
+      Maril,
+      Avantor,
+      BDLAb,
+      Medsource,
+      TharmoFirsher,
+      Olympus,
+      Labomed,
+      MB,
+      Tarson,
+    ].map((logo, index) => (
+      <img
+        key={index}
+        src={logo}
+        alt="company-logo"
+        style={{
+          margin: "0 1.5rem",
+          height: "60px",
+          filter: "grayscale(100%)",
+          transition: "filter 0.3s ease-in-out",
+        }}
+        onMouseOver={(e) => (e.currentTarget.style.filter = "grayscale(0%)")}
+        onMouseOut={(e) => (e.currentTarget.style.filter = "grayscale(100%)")}
+      />
+    ))}
   </Marquee>
 );
 
