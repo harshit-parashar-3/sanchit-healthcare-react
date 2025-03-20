@@ -52,14 +52,14 @@ const MarketingHeader = () => {
                 About Us
               </Link>
 
-              <Link
+{/*               <Link
                 to="/category"
                 className={`scrollNavigationBtn ${getButtonClassName(
                   "/category"
                 )}`}
               >
                 Category
-              </Link>
+              </Link> */}
               <Link
                 to="/contact"
                 className={`scrollNavigationBtn ${getButtonClassName(
