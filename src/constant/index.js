@@ -81,7 +81,7 @@ export const servicesData = [
 
 export const footerLinksGeneral = [
   { path: "/", label: "Home" },
-  { path: "/category", label: "Category" },
+  // { path: "/category", label: "Category" },
   { path: "/aboutus", label: "About sanchitHealthcare" },
   { path: "/contact", label: "Contact with us" },
 ];
