@@ -29,9 +29,9 @@ const InvoiceanMarketing = () => {
       <CompanyMarque />
 
       <AboutSection />
-      <ServiceSection />
+{/*       <ServiceSection /> */}
 
-      <FeatureProduct />
+{/*       <FeatureProduct /> */}
 
       <BannerSection
         heading="Your Trusted Partner for Advanced Laboratory Equipment"
