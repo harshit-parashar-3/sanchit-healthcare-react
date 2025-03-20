@@ -35,7 +35,7 @@ const App = () => {
           path="/legal/data-deletion-instruction"
           element={<DataDeletionInstructions />}
         />
-        <Route path="/category/:category" element={<Category />} />
+{/*         <Route path="/category/:category" element={<Category />} /> */}
       </Routes>
     </>
   );
