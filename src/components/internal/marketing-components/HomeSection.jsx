@@ -25,11 +25,11 @@ const HomeSection = () => {
                   cutting-edge machines and seamless service.
                 </span>
               </Typography>
-              <CustomButton
+{/*               <CustomButton
                 title="Explore Products"
                 styles="button marketingButton mt-18"
                 url={"/category"}
-              />
+              /> */}
             </Box>
           </Box>
         </Container>
