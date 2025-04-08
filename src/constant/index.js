@@ -88,6 +88,7 @@ export const footerLinksGeneral = [
   { path: "/", label: "Home" },
   // { path: "/category", label: "Category" },
   { path: "/aboutus", label: "About Us" },
+
   { path: "/gallery", label: "Gallery" },
   { path: "/contact", label: "Contact with us" },
 ];
