@@ -11,6 +11,11 @@ import consumable from "../assets/images/consumables.png";
 import chromatogram from "../assets/images/chromatogram.png";
 import histopathology from "../assets/images/histopathology.png";
 import microscope from "../assets/images/olympus-compound.png";
+import image from "../assets/photo/image.jpeg";
+import image2 from "../assets/photo/image2.jpeg";
+import image3 from "../assets/photo/image3.jpeg";
+import image4 from "../assets/photo/image4.jpeg";
+import image5 from "../assets/photo/image5.jpeg";
 
 export const servicesData = [
   {
@@ -82,7 +87,8 @@ export const servicesData = [
 export const footerLinksGeneral = [
   { path: "/", label: "Home" },
   // { path: "/category", label: "Category" },
-  { path: "/aboutus", label: "About sanchitHealthcare" },
+  { path: "/aboutus", label: "About Us" },
+  { path: "/gallery", label: "Gallery" },
   { path: "/contact", label: "Contact with us" },
 ];
 export const footerLinksLegal = [
@@ -150,5 +156,33 @@ export const testimonialData = [
     testimonial:
       "The advanced features of Sanchit Healthcare LLP's lab equipment enhance our research capabilities and facilitate seamless collaboration within our team.",
     position: "Laboratory Supervisor",
+  },
+];
+
+export const photos = [
+  {
+    src: image,
+    width: 1,
+    height: 1.5,
+  },
+  {
+    src: image2,
+    width: 1,
+    height: 1,
+  },
+  {
+    src: image3,
+    width: 3,
+    height: 4,
+  },
+  {
+    src: image4,
+    width: 1,
+    height: 1,
+  },
+  {
+    src: image5,
+    width: 1,
+    height: 1,
   },
 ];

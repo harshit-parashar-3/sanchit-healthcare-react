@@ -11,6 +11,7 @@ import TermsAndConditions from "./components/pages/marketing-website/TermsAndCon
 import DataDeletionInstructions from "./components/pages/marketing-website/DataDeletionInstructions";
 import ContactPage from "./components/pages/marketing-website/ContactPage";
 import Category from "./components/internal/marketing-components/categoryPages/Category";
+import Gallary from "./components/pages/marketing-website/Gallary";
 
 const App = () => {
   usePageTracking();
@@ -31,11 +32,12 @@ const App = () => {
           path="/legal/terms-and-conditions"
           element={<TermsAndConditions />}
         />
+        <Route path="/gallery" element={<Gallary />} />
         <Route
           path="/legal/data-deletion-instruction"
           element={<DataDeletionInstructions />}
         />
-{/*         <Route path="/category/:category" element={<Category />} /> */}
+        {/*         <Route path="/category/:category" element={<Category />} /> */}
       </Routes>
     </>
   );
